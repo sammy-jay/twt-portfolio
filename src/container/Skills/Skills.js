@@ -60,7 +60,7 @@ const Skills = () => {
                     className="app__skills-exp-work"
                     data-tip
                     data-for={experience.name}
-                    key={work.name}
+                    key={experience.name}
                   >
                     <h4 className="bold-text">{experience.name}</h4>
                     <p className="p-text" style={{ fontStyle: "italic" }}>
