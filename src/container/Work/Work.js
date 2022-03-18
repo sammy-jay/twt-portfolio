@@ -52,7 +52,7 @@ const Work = () => {
           "React JS",
           "Node JS",
           "Web 3.0",
-         
+         "All",
         ].map((item, index) => (
           <div
             key={index}
