@@ -8,11 +8,21 @@ export default{
             title:'Year',
             type:'string'
         },
-        {
-            name:'works',
-            title:'Works',
-            type:'array',
-            of:[{ type:'workExperience'}]
-        },
+        {name:'name',
+               title:'name',
+               type:'string'
+            },
+            {
+                name:'company',
+                title:'Company',
+                type:'string'
+            },
+            {
+                name:'desc',
+                title:'Desc',
+                 type:'array',
+            of:[{ type:'string'}]
+            }
+       
     ]
 }
