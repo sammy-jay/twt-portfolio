@@ -56,7 +56,7 @@ const Header = () => {
        <motion.div
         variants={scaleVariants}
         whileInView={scaleVariants.whileInView}
-        className="app__header-circles"
+        className="app__header-circles hide-mobile"
       >
         {[images.javascript, images.python, images.figma].map((circle, index) => (
           <div className="circle-cmp app__flex" key={`circle-${index}`}>
