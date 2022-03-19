@@ -124,7 +124,7 @@ const Footer = () => {
           <h3 className="head-text">Thank you for getting in touch!</h3>
         </div>
       )}
-        <div style={{ marginTop: '10px', width:'100%', display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center' }}>
+        <div style={{ marginTop: '40px', width:'100%', display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center' }}>
 
             <p className="p-text">&copy;2022 TOLULOPE</p>
 
