@@ -1,5 +1,7 @@
 import React from 'react';
 import { NavigationDots, SocialMedia } from '../components';
+import { BsTwitter, BsInstagram,BsLinkedin } from "react-icons/bs";
+import { FaFacebookF } from "react-icons/fa";
 
 const AppWrap = (Component, idName, classNames) =>
   function HOC() {
