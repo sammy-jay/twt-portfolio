@@ -11,12 +11,6 @@ const AppWrap = (Component, idName, classNames) =>
           <Component />
 
           <div className="copyright">
-           
-                <a href="" target="_blank">
-                  <BsInstagram />
-                </a>
-              </div>
-            </div>
             <p className="p-text">&copy;2022 TOLULOPE</p>
             <p className="p-text">All rights reserved</p>
           </div>
