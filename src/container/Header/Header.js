@@ -58,7 +58,7 @@ const Header = () => {
       transition={{ duration: 0.5, delayChildren: 0.5 }}
       className="app__header-img"
     >
-      <img src="https://res.cloudinary.com/techwithtols/image/upload/c_scale,q_100,r_30,w_560/a_-10/v1647722425/portfolio/profile_zzxajo.jpg" alt="profile_bg" />
+      <img src="https://res.cloudinary.com/techwithtols/image/upload/v1647724108/portfolio/profile-removebg_jywocv.png" alt="profile_bg" />
       <motion.img
         whileInView={{ scale: [0, 1] }}
         transition={{ duration: 1, ease: 'easeInOut' }}
