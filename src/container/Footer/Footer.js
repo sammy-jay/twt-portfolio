@@ -60,7 +60,7 @@ const Footer = () => {
         </div>
       </div>
 
-       <div className="app__footer-cards">
+       <div className="app__footer-cards footer-two">
          <div className="social-icon">
       <a
         href="https://linkedin.com/in/tolulope-soneye-5526a51b7"
