@@ -124,6 +124,13 @@ const Footer = () => {
           <h3 className="head-text">Thank you for getting in touch!</h3>
         </div>
       )}
+<div className="copyright">
+
+            <p className="p-text">&copy;2022 TOLULOPE</p>
+
+            <p className="p-text">All rights reserved</p>
+
+          </div>
     </>
   );
 };
