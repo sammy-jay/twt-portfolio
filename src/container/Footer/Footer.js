@@ -23,9 +23,11 @@ const Footer = () => {
   };
 
   const handleSubmit = () => {
-    setLoading(true);
+   
 
     if (formData.username && formData.email &&  formData.message){
+       setLoading(true);
+      
       const contact = {
       _type: "contact",
       name: formData.username,
