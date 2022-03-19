@@ -56,15 +56,52 @@ const Testimonial = () => {
       )}
 
       <div className="app__testimonial-brands app__flex">
-        {brands.map((brand) => (
+        
           <motion.div
             whileInView={{ opacity: [0, 1] }}
             transition={{ duration: 0.5, type: 'tween' }}
             key={brand._id}
+            style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}
           >
-            <img src={urlFor(brand.imgUrl)} alt={brand.name} />
+             <h1 className="bold-text">11</h1>
+            <h3 className="p-text">Clients</h3>
+           
           </motion.div>
-        ))}
+
+          <motion.div
+            whileInView={{ opacity: [0, 1] }}
+            transition={{ duration: 0.5, type: 'tween' }}
+            key={brand._id}
+            style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}
+          >
+             <h1 className="bold-text">27</h1>
+            <h2 className="p-text">Projects Completed</h2>
+           
+          </motion.div>
+
+          <motion.div
+            whileInView={{ opacity: [0, 1] }}
+            transition={{ duration: 0.5, type: 'tween' }}
+            key={brand._id}
+            style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}
+          >
+            <h1 className="bold-text">6</h1>
+            <h3 className="p-text">Projects Ongoing</h3>
+            
+          </motion.div>
+
+
+          <motion.div
+            whileInView={{ opacity: [0, 1] }}
+            transition={{ duration: 0.5, type: 'tween' }}
+            key={brand._id}
+            style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}
+          >
+             <h1 className="bold-text">11</h1>
+            <h3 className="p-text">Clients Satisfied</h3>
+           
+          </motion.div>
+       
       </div>
     </>
   );
