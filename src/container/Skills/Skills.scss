@@ -3,7 +3,9 @@
   width: 100%;
   flex-direction: column;
 }
-
+.copyright {
+  display: none;
+}
 .app__skills-container {
   width: 80%;
   margin-top: 3rem;
