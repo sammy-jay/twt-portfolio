@@ -29,7 +29,7 @@ const Work = () => {
       setAnimateCard([{ y: 0, opacity: 1 }]);
 
       if (item === "All") {
-        setFilterWork(works.filter((work) => work.tags.includes("special")));
+        setFilterWork(works)
       } else {
         setFilterWork(works.filter((work) => work.tags.includes(item)));
       }
