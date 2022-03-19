@@ -63,8 +63,8 @@ const Testimonial = () => {
           
             style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}
           >
-             <h1 className="bold-text" style={{fontSize:'35px'}}>11</h1>
-            <h3 className="p-text" style={{fontSize:'14px'}}>Clients</h3>
+             <h1 className="bold-text" style={{fontSize:'30px'}}>11</h1>
+            <h3 className="p-text" style={{fontSize:'12px'}}>Clients</h3>
            
           </motion.div>
 
@@ -74,8 +74,8 @@ const Testimonial = () => {
            
             style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}
           >
-             <h1 className="bold-text" style={{fontSize:'35px'}}>27</h1>
-            <h2 className="p-text" style={{fontSize:'14px'}}>Projects Completed</h2>
+             <h1 className="bold-text" style={{fontSize:'30px'}}>27</h1>
+            <h2 className="p-text" style={{fontSize:'12px'}}>Projects Completed</h2>
            
           </motion.div>
 
@@ -85,8 +85,8 @@ const Testimonial = () => {
            
             style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}
           >
-            <h1 className="bold-text" style={{fontSize:'35px'}}>6</h1>
-            <h3 className="p-text" style={{fontSize:'14px'}}>Projects Ongoing</h3>
+            <h1 className="bold-text" style={{fontSize:'30px'}}>6</h1>
+            <h3 className="p-text" style={{fontSize:'12px'}}>Projects Ongoing</h3>
             
           </motion.div>
 
@@ -97,8 +97,8 @@ const Testimonial = () => {
            
             style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}
           >
-             <h1 className="bold-text" style={{fontSize:'35px'}}>11</h1>
-            <h3 className="p-text" style={{fontSize:'14px'}}>Clients Satisfied</h3>
+             <h1 className="bold-text" style={{fontSize:'30px'}}>11</h1>
+            <h3 className="p-text" style={{fontSize:'12px'}}>Clients Satisfied</h3>
            
           </motion.div>
        
