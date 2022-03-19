@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+import { BsTwitter, BsInstagram,BsLinkedin } from "react-icons/bs";
 import { images } from "../../constants";
 import { AppWrap, MotionWrap } from "../../wrapper";
 import { client } from "../../client";
@@ -58,6 +59,31 @@ const Footer = () => {
           </a>
         </div>
       </div>
+
+       <div className="app__footer-cards">
+         <div className="social-icon">
+      <a
+        href="https://linkedin.com/in/tolulope-soneye-5526a51b7"
+        target="_blank"
+      >
+        
+        <BsLinkedin size={32}/>
+      </a>
+    </div>
+  <div className="social-icon">
+      <a
+        href="https://twitter.com/TolulopeSoneye3?t=3XdYF_fZljuuDMfpYluONw&s=09"
+        target="_blank"
+      >
+        <BsTwitter size={32}/>
+      </a>
+    </div>
+    <div className="social-icon">
+      <a href="" target="_blank">
+        <BsInstagram size={32}/>
+      </a>
+    </div>
+         </div>
       {!isFormSubmitted ? (
         <div className="app__footer-form app__flex">
           <div className="app__flex">
