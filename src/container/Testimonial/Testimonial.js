@@ -60,7 +60,7 @@ const Testimonial = () => {
           <motion.div
             whileInView={{ opacity: [0, 1] }}
             transition={{ duration: 0.5, type: 'tween' }}
-            key={brand._id}
+          
             style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}
           >
              <h1 className="bold-text">11</h1>
@@ -71,7 +71,7 @@ const Testimonial = () => {
           <motion.div
             whileInView={{ opacity: [0, 1] }}
             transition={{ duration: 0.5, type: 'tween' }}
-            key={brand._id}
+           
             style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}
           >
              <h1 className="bold-text">27</h1>
@@ -82,7 +82,7 @@ const Testimonial = () => {
           <motion.div
             whileInView={{ opacity: [0, 1] }}
             transition={{ duration: 0.5, type: 'tween' }}
-            key={brand._id}
+           
             style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}
           >
             <h1 className="bold-text">6</h1>
@@ -94,7 +94,7 @@ const Testimonial = () => {
           <motion.div
             whileInView={{ opacity: [0, 1] }}
             transition={{ duration: 0.5, type: 'tween' }}
-            key={brand._id}
+           
             style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}
           >
              <h1 className="bold-text">11</h1>
