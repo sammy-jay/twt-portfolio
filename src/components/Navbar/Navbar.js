@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <img src="https://res.cloudinary.com/techwithtols/image/upload/v1647720555/portfolio/logo_lgcfms.png" alt="logo" />
+        <img src="https://res.cloudinary.com/techwithtols/image/upload/v1647721273/portfolio/logo_2_gejxz5.png" alt="logo" />
       </div>
       <ul className="app__navbar-links">
         {["home", "about", "work", "skills", "contact"].map((item) => (
