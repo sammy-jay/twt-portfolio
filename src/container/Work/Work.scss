@@ -3,7 +3,9 @@
   width: 100%;
   flex-direction: column;
 }
-
+.copyright {
+      display: none;
+    }
 .app__work-filter {
   display: flex;
   flex-direction: row;
