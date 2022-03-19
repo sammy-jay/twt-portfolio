@@ -3,7 +3,9 @@
   width: 100%;
   flex-direction: column;
 }
-
+.copyright {
+      display: none;
+    }
 .app__profiles {
   display: flex;
   justify-content: center;
