@@ -19,7 +19,7 @@ const scaleVariants = {
 
 const Header = () => {
   const { text } = useTypewriter({
-    words: [ "Frontend Developer", "Backend Developer", "Web Designer", "Mobile App Developer","Penetration Tester"],
+    words: [ "Frontend Developer", "Backend Developer", "Web Designer", "Mobile App Developer","Penetration Tester","Blockchain Developer"],
     loop: false,
     cursor: true,
     cursorStyle: "_",
@@ -58,7 +58,7 @@ const Header = () => {
       transition={{ duration: 0.5, delayChildren: 0.5 }}
       className="app__header-img"
     >
-      <img src="https://res.cloudinary.com/techwithtols/image/upload/v1647724108/portfolio/profile-removebg_jywocv.png" alt="profile_bg" />
+      <img src="https://res.cloudinary.com/techwithtols/image/upload/v1649623931/portfolio/IMG_20210801_095229_162-removebg-preview_g3wny6.png" alt="profile_bg" />
       <motion.img
         whileInView={{ scale: [0, 1] }}
         transition={{ duration: 1, ease: 'easeInOut' }}
