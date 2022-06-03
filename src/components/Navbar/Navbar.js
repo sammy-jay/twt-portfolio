@@ -20,6 +20,9 @@ const Navbar = () => {
             <a href={`#${item}`}>{item}</a>
           </li>
         ))}
+        <button type="button" className="p-text">
+            <a href="" download="">Download CV</a>
+          </button>
       </ul>
 
       <div className="app__navbar-menu">
