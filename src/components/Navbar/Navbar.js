@@ -21,7 +21,7 @@ const Navbar = () => {
           </li>
         ))}
         <button type="button" className="p-text">
-            <a href="" download="">Download CV</a>
+            <a href="" download="" className="p-text">Download CV</a>
           </button>
       </ul>
 
