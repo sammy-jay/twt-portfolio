@@ -19,7 +19,7 @@ const scaleVariants = {
 
 const Header = () => {
   const { text } = useTypewriter({
-    words: [ "Frontend Developer", "Backend Developer", "Web Designer", "Mobile App Developer","Penetration Tester","Blockchain Developer"],
+    words: [ "Frontend Engineer", "Backend Engineer", "Software Engineer"],
     loop: false,
     cursor: true,
     cursorStyle: "_",
