@@ -20,6 +20,10 @@ const Navbar = () => {
             <a href={`#${item}`}>{item}</a>
           </li>
         ))}
+        <li className="app__flex p-text">
+            <div />
+            <a href={images.resume}>Download CV</a>
+          </li>
       </ul>
 
       <div className="app__navbar-menu">
