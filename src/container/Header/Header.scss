@@ -103,6 +103,7 @@
   align-items: flex-start;
   height: 100%;
   margin-left: 1rem;
+  z-index: 5;
 
   div {
     width: 100px;
@@ -163,6 +164,7 @@
       margin: 1rem;
     }
   }
+  
 }
 
 .app__header-img {
@@ -177,7 +179,7 @@
   img {
     width: 100%;
     object-fit: contain;
-    z-index: 1;
+    z-index: 0;
   }
 
   .overlay_circle {
@@ -193,6 +195,10 @@
   @media screen and (max-width: 1200px) {
     margin: 2rem 0;
   }
+
+  @media screen and (max-width: 900px) {
+    display: none;
+  }
 }
 .tag-flex {
   @media screen and (max-width: 760px) {
@@ -203,17 +209,22 @@
     position: relative;
     top: -20px;
     right: -60px;
-    
   }
   .first-tag {
     position: relative;
 
     left: -15px;
   }
+  .typewriter {
+    font-size: 0.9rem;
+  }
 }
 .typewriter {
-  font-size: 0.9rem;
+  font-size: 1.9rem;
 }
 
-@media screen and (max-width: 800px){
-  .hide-mobile{display:none}}
+@media screen and (max-width: 800px) {
+  .hide-mobile {
+    display: none;
+  }
+}

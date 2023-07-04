@@ -12,9 +12,15 @@
   flex-wrap: wrap;
   margin-top: 2rem;
 }
-
+.about__description{
+  padding-top: 1.5rem;
+  p{
+    max-width: 800px;
+    font-size: larger;
+  }
+}
 .app__profile-item {
-  width: 190px;
+  width: 210px;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -23,17 +29,20 @@
 
   img {
     width: 100%;
-    height: 170px;
+    height: 190px;
     border-radius: 15px;
     object-fit: cover;
   }
 
   @media screen and (min-width: 2000px) {
-    width: 370px;
+    width: 390px;
     margin: 2rem 4rem;
 
     img {
-      height: 320px;
+      height: 350px;
     }
   }
+}
+.blue-text{
+  color: #313bac;
 }

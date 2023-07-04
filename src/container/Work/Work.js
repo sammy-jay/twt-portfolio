@@ -43,23 +43,19 @@ const Work = () => {
       </h2>
 
       <div className="app__work-filter">
-        {[
-          "Vanilla JS",
-          "Next JS",
-          "React JS",
-          "MERN",
-         "All",
-        ].map((item, index) => (
-          <div
-            key={index}
-            onClick={() => handleWorkFilter(item)}
-            className={`app__work-filter-item app__flex p-text ${
-              activeFilter === item ? "item-active" : ""
-            }`}
-          >
-            {item}
-          </div>
-        ))}
+        {["Vanilla JS", "Next JS", "React JS", "MERN", "All"].map(
+          (item, index) => (
+            <div
+              key={index}
+              onClick={() => handleWorkFilter(item)}
+              className={`app__work-filter-item app__flex p-text ${
+                activeFilter === item ? "item-active" : ""
+              }`}
+            >
+              {item}
+            </div>
+          )
+        )}
       </div>
 
       <motion.div
@@ -67,7 +63,7 @@ const Work = () => {
         transition={{ duration: 0.5, delayChildren: 0.5 }}
         className="app__work-portfolio"
       >
-        {filterWork.map((work, index) => (
+        {filterWork.length > 0 ? (filterWork.map((work, index) => (
           <div className="app__work-item app__flex" key={index}>
             <div className="app__work-img app__flex">
               <img src={urlFor(work.imgUrl)} alt={work.name} />
@@ -109,16 +105,24 @@ const Work = () => {
               <p className="p-text" style={{ marginTop: 10 }}>
                 {work.description}
               </p>
-              <div style={{ width:"100%", display:"flex", justifyContent:"space-evenly", marginTop: "5px"}}>
+              <div
+                className="work__mobile-icons"
+                style={{
+                  width: "100%",
+                  display: "flex",
+                  justifyContent: "space-evenly",
+                  marginTop: "5px",
+                }}
+              >
                 <a href={work.projectLink} target="_blank" rel="noreferrer">
-                <div className="app__flex" >
-                    <AiFillEye size={28}/>
-                   </div>
+                  <div className="app__flex">
+                    <AiFillEye size={28} color="gray" />
+                  </div>
                 </a>
                 <a href={work.codeLink} target="_blank" rel="noreferrer">
                   <div className="app__flex">
-                    <AiFillGithub size={28}/>
-                   </div>
+                    <AiFillGithub size={28} color="gray" />
+                  </div>
                 </a>
               </div>
 
@@ -127,7 +131,17 @@ const Work = () => {
               </div>
             </div>
           </div>
-        ))}
+        ))) : (
+           <motion.div
+                transition={{
+                  duration: 0.25,
+                  ease: "easeInOut",
+                  staggerChildren: 0.5,
+                }}
+              >
+                <h1 style={{marginTop: '1rem'}}>To Be Added Soon</h1>
+              </motion.div>
+        )}
       </motion.div>
     </>
   );

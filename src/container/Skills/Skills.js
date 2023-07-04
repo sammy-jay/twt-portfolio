@@ -25,7 +25,9 @@ const Skills = () => {
 
   return (
     <>
-      <h2 className="head-text">Skil<span>ls & Exper</span>iences</h2>
+      <h2 className="head-text">
+        Skil<span>ls & Exper</span>iences
+      </h2>
 
       <div className="app__skills-container">
         <motion.div className="app__skills-list">
@@ -36,12 +38,10 @@ const Skills = () => {
               className="app__skills-item app__flex"
               key={skill.name}
             >
-              <div
-                className="app__flex"
-                style={{ backgroundColor: skill.bgColor }}
-              >
+              <div className="circle-cmp app__flex">
                 <img src={urlFor(skill.icon)} alt={skill.name} />
               </div>
+            
               <p className="p-text">{skill.name}</p>
             </motion.div>
           ))}

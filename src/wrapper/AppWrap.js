@@ -9,8 +9,6 @@ const AppWrap = (Component, idName, classNames) =>
         <SocialMedia />
         <div className="app__wrapper app__flex">
           <Component />
-
- 
         </div>
         <NavigationDots active={idName} />
       </div>

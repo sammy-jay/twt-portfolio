@@ -48,7 +48,7 @@
   align-items: center;
 
   .app__work-item {
-    width: 320px;
+    width: 330px;
     flex-direction: column;
     -webkit-tap-highlight-color: transparent;
     margin: 2rem;
@@ -147,10 +147,15 @@
 
   .app__work-tag {
     position: absolute;
-box-shadow: 1px 1px 6px grey;
+    box-shadow: 1px 1px 6px grey;
     padding: 0.5rem 1rem;
     border-radius: 10px;
     background-color: #fff;
     top: -25px;
+  }
+}
+@media screen and (min-width: 760px) {
+  .work__mobile-icons {
+    display: none;
   }
 }
